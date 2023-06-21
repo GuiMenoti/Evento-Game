@@ -1,0 +1,468 @@
+:root {
+   --primeira: #B725F1;
+   --Secundaria: #95989a;
+   --text-color: #fff;
+   --text-secundario: #000;
+   --text-terciario: #5d5d5d;
+    
+
+}
+
+
+* {
+    font-family: Pathway Extreme;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#evento-descricao {
+    background: linear-gradient(rgba(104, 99, 99, 0.5),rgba(58, 53, 53, 0.5)), url(img/pexels-lucie-liz-3165335.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--text-color);
+
+}
+
+#disclaimer h2, #disclaimer .evento-data {
+    color: #B725F1;
+}
+
+#disclaimer h2 {
+    font-size: 4rem;
+    margin-bottom: 1.2rem;
+    font-weight: bold;
+}
+
+#disclaimer .about-evento {
+    font-size: 2rem;
+    text-transform: uppercase;
+    max-width: 350px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#disclaimer p {
+    font-size: 1.2rem;
+    margin-bottom: .3rem;
+
+}
+
+#disclaimer .evento-data {
+    font-weight: bold;
+
+}
+
+#sub-formulario {
+    background-color: var(--Secundaria);
+    padding: 2rem;
+    max-width: 21%;
+    border-radius: 20px;
+   
+}
+
+#sub-formulario p {
+    font-size: 1.4rem;
+    color: var(--text-secundario);
+    margin-bottom: 1rem;
+    text-align: center;
+    
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.8em;
+}
+
+
+.form-group label {
+    color: var(--text-terciario);
+    margin-bottom: .3em;
+    font-weight: bold;
+}
+
+.form-group input, .form-group select {
+    padding: 6px 8px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+
+}
+
+
+.btn {
+    background-color: var(--primeira);
+    color: var(--text-color);
+    text-transform: uppercase;
+    width: 100%;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    opacity: .8;
+    border-radius: 10px;
+    transition: 1.25s ease;
+}
+
+
+.btn:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    background: #ff00ea;
+}
+
+#key-banefits h2 {
+    background: var(--Secundaria);
+  
+  
+    text-align: center;
+    padding: 2em;
+    font-weight: 500;
+
+}
+
+.benefits {
+    display:flex;
+    justify-content: space-around;
+    
+    
+    padding: 4em;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.benefit {
+   text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width:20%;
+    color: var(--text-terciario);
+}
+
+.benefit .benefit-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+}
+
+#benefit-1 {
+    background-image: url(img/Desenvolvimento.jpg);
+    transition: 2s ease;
+    cursor: pointer;
+}
+   
+
+
+#benefit-1:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    
+}
+    
+#benefit-2 {
+    background-image: url(img/competitivo.jpg);
+    transition: 2s ease;
+    cursor: pointer;
+}
+
+#benefit-2:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    
+}
+    
+#benefit-3 {
+    background-image: url(img/evoluirhabilidades.jpg);
+    transition: 2s ease;
+    cursor: pointer;
+}
+
+#benefit-3:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    
+}
+
+
+#location {
+    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(img/Mapa.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--text-color);
+    margin-bottom: 3em;
+     
+}
+
+#addres, #about-location {
+    max-width: 30%;
+
+}
+
+    
+
+#addres {
+    display: flex;
+}
+
+#address-details {
+    
+    font-size: 1.3em;
+}
+#address-details h4 {
+
+    font-size: 2.0em;
+    margin-bottom: 1em;
+}
+
+#about-location h3 {
+   
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+#about-location p {
+    line-height: 1.5em;
+}
+
+#details {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.detail {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 4em;
+    
+}
+
+.detail img {
+    width: 30%;
+}
+
+.detail p {
+    margin-top: 7em;
+  
+    
+    
+}
+
+.detail h3 {
+    margin-bottom: 1em ;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+#detail-1 h3 {
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.detail-description {
+    width: 100%;
+    padding-left: 2em;
+}
+
+.detail-description ul {
+    list-style-position: inside;
+}
+
+.detail-description ul li {
+    margin-bottom: 0.4em;
+}
+
+.detail-description ul li:last-child {
+    font-weight: bold;
+}
+
+#detail-3 img {
+    width: 40%;
+}
+
+#detail-2 img {
+    width: 40%;
+}
+
+
+#cta {
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8));
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+
+}
+
+#cta h3 {
+    margin-bottom: 1.2em;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+#cta .btn {
+    width: 30%;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+#footer {
+    text-align: center;
+    color: var(--text-terciario);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#footer h3 {
+    font-size: 1.8em;
+    margin-bottom: .5em;
+}
+
+#footer p:nth-child(2) {
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+#footer span {
+font-weight: bold;
+}
+
+
+
+@media (max-width: 450px) {
+    /* Event form */
+    #evento-descricao {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    #disclaimer {
+      padding: 2em;
+    }
+  
+    #disclaimer h2 {
+      margin-bottom: 0.5em;
+    }
+  
+    #sub-formulario {
+      max-width: 70%;
+      margin-bottom: 2em;
+    }
+  
+    /* Benefits section */
+    .benefits {
+      flex-direction: column;
+      align-items: center;
+      width: auto;
+      padding: 2em;
+    }
+  
+    .benefit {
+      max-width: 100%;
+      margin-bottom: 2em;
+    }
+  
+    /* Event location */
+    #location {
+      flex-direction: column;
+      height: auto;
+      text-align: center;
+      padding: 2em 0;
+    }
+  
+    #addres {
+      order: 2;
+      flex-direction: column;
+      max-width: 100%;
+    }
+  
+    #addres i {
+      margin: 0.3em 0;
+    }
+  
+    #about-location {
+      order: 1;
+      max-width: 100%;
+    }
+  
+    #about-location h3 {
+      margin-bottom: 0;
+    }
+  
+    #about-location p {
+      display: none;
+    }
+  
+    /* Event details container */
+    .detail {
+      flex-direction: column;
+      margin-bottom: 0.5em;
+      gap: 0;
+    }
+  
+    .detail img {
+      width: 100%;
+      margin: 2em 0;
+    }
+  
+    #detail-1 img {
+      display: none;
+    }
+  
+    .detail-description {
+      padding: 0;
+    }
+  
+    #detail-3 img {
+      order: 2;
+    }
+  
+    #detail-3 .detail-description {
+      order: 1;
+    }
+    #cta {
+        width: 100%;
+        padding: 0;
+    }
+  
+    /* Call to Action Section */
+    #cta .btn {
+      width: 80%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
