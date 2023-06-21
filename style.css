@@ -50,8 +50,13 @@
 #disclaimer p {
     font-size: 1.2rem;
     margin-bottom: .3rem;
+    
+    
+
 
 }
+
+
 
 #disclaimer .evento-data {
     font-weight: bold;
@@ -293,12 +298,33 @@
 
 #detail-3 img {
     width: 40%;
+    transition: 1.25s ease;
+    cursor: pointer;
+}
+#detail-3 img:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
 }
 
 #detail-2 img {
     width: 40%;
+    transition: 1.25s ease;
+    cursor: pointer;
+}
+#detail-2 img:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+   
 }
 
+#detail-1 img {
+    transition: 1.25s ease;
+    cursor: pointer;
+}
+#detail-1 img:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
 
 #cta {
     height: 300px;
@@ -437,11 +463,11 @@ font-weight: bold;
     }
   
     #detail-3 img {
-      order: 2;
+      border: 2;
     }
   
     #detail-3 .detail-description {
-      order: 1;
+      border: 1;
     }
     #cta {
         width: 100%;
@@ -453,16 +479,3 @@ font-weight: bold;
       width: 80%;
     }
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
